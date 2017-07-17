@@ -9,10 +9,11 @@ angular.module("app")
 
 		// HOME STATE
     .state('home', {
-      url: '/home',
+      url: '/',
       templateUrl: './app/routes/home/homeTmpl.html',
       // controller: 'homeCtrl'
     })
+
 
 
     // ASSIGN OTHERWISE

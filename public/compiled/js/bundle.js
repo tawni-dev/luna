@@ -10,7 +10,7 @@ angular.module("app").config(function ($stateProvider, $urlRouterProvider) {
 
   // HOME STATE
   .state('home', {
-    url: '/home',
+    url: '/',
     templateUrl: './app/routes/home/homeTmpl.html'
     // controller: 'homeCtrl'
   });
