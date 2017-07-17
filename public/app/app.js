@@ -9,8 +9,8 @@ angular.module("app")
 
 		// HOME STATE
     .state('home', {
-      url: '/',
-      templateUrl: './routes/home/homeTmpl.html',
+      url: '/home',
+      templateUrl: './app/routes/home/homeTmpl.html',
       // controller: 'homeCtrl'
     })
 
