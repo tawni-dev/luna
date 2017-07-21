@@ -1,9 +1,8 @@
 @import 'styles';
 
 
-.home-container {
-  height: 700px;
-  width: 100vw;
+.home-top {
+  height: 500px;
   background-image: url('../../styles/img/home.jpg');
   background-size: cover;
   background-position: center;
@@ -20,12 +19,12 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 220px;
+      width: 130px;
       font-family: $main-font;
-      text-shadow: 1px 1px 4px rgba(60, 60, 60, 0.76);
-      color: black;
+      text-shadow: 2px 2px 4px rgba(60, 60, 60, 0.76);
+      color: #676C70;
       p {
-        font-size: 2em;
+        font-size: 1em;
       }
     }
   }
@@ -34,7 +33,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 1.2em;
+    padding-top: .6em;
     font-size: 110px;
     font-family: $secondary-font;
     color: white;
@@ -57,4 +56,67 @@
       }
     }
   }
+}
+
+.home-middle {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .middle-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80px;
+    margin: 40px;
+
+    p {
+      font-family: $cursive-font;
+      font-size: 60px;
+    }
+  }
+
+  .middle-container {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .home-necklaces {
+      height: 300px;
+      width: 400px;
+      background-image: url('../../styles/img/necklace.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-right: 50px;
+      border: 1px solid rgba(105, 105, 105, 0.65);
+    }
+
+    .home-rings {
+      height: 300px;
+      width: 400px;
+      background-image: url('../../styles/img/ring.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-right: 50px;
+      border: 1px solid rgba(105, 105, 105, 0.65);
+
+    }
+
+    .home-dream {
+      height: 300px;
+      width: 400px;
+      background-image: url('../../styles/img/dream.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border: 1px solid rgba(105, 105, 105, 0.65);
+
+    }
+
+  }
+
 }

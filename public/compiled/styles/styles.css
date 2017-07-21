@@ -1,45 +1,44 @@
 body {
   margin: 0px; }
 
-.home-container {
-  height: 700px;
-  width: 100vw;
+.home-top {
+  height: 500px;
   background-image: url("../../styles/img/home.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
-  .home-container .home-nav {
+  .home-top .home-nav {
     background-color: transparent;
     height: 80px;
     display: flex;
     justify-content: flex-end; }
-    .home-container .home-nav .home-nav-button {
+    .home-top .home-nav .home-nav-button {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 220px;
+      width: 130px;
       font-family: "Duru Sans", sans-serif;
-      text-shadow: 1px 1px 4px rgba(60, 60, 60, 0.76);
-      color: black; }
-      .home-container .home-nav .home-nav-button p {
-        font-size: 2em; }
-  .home-container .home-welcome {
+      text-shadow: 2px 2px 4px rgba(60, 60, 60, 0.76);
+      color: #676C70; }
+      .home-top .home-nav .home-nav-button p {
+        font-size: 1em; }
+  .home-top .home-welcome {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 1.2em;
+    padding-top: .6em;
     font-size: 110px;
     font-family: "Source Sans Pro", sans-serif;
     color: white;
     text-shadow: 4px 4px 20px rgba(60, 60, 60, 0.76); }
-    .home-container .home-welcome .luna-home {
+    .home-top .home-welcome .luna-home {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column; }
-      .home-container .home-welcome .luna-home .shop-home {
+      .home-top .home-welcome .luna-home .shop-home {
         background-color: transparent;
         border: 3px solid white;
         font-size: .3em;
@@ -47,6 +46,52 @@ body {
         text-shadow: 8px 8px 20px rgba(60, 60, 60, 0.76);
         margin-top: 60px;
         padding: 10px; }
+
+.home-middle {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .home-middle .middle-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80px;
+    margin: 40px; }
+    .home-middle .middle-p p {
+      font-family: "Rouge Script", cursive;
+      font-size: 60px; }
+  .home-middle .middle-container {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .home-middle .middle-container .home-necklaces {
+      height: 300px;
+      width: 400px;
+      background-image: url("../../styles/img/necklace.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-right: 50px;
+      border: 1px solid rgba(105, 105, 105, 0.65); }
+    .home-middle .middle-container .home-rings {
+      height: 300px;
+      width: 400px;
+      background-image: url("../../styles/img/ring.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-right: 50px;
+      border: 1px solid rgba(105, 105, 105, 0.65); }
+    .home-middle .middle-container .home-dream {
+      height: 300px;
+      width: 400px;
+      background-image: url("../../styles/img/dream.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border: 1px solid rgba(105, 105, 105, 0.65); }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
